@@ -36,6 +36,17 @@ public class Slider1 {
         //majorTickSpacing to 
         //
         //and then add the slider to frame
+        slider.setMinimum(0);
+        slider.setMaximum(100);
+        slider.setValue(10);
+        slider.setPaintTicks(true);
+        slider.setPaintTrack(true);
+        slider.setPaintLabels(true);
+        slider.setMajorTickSpacing(10);
+        slider.setMinorTickSpacing(1);
+        slider.getValue();
+        frame.add(slider);
+        
         
         //////////////////////////////////
         
